@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="760.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="application.SampleController">
+   <children>
+      <VBox prefHeight="760.0" prefWidth="268.0" style="-fx-background-color: #3367D6;" styleClass="sidePanel">
+         <children>
+            <AnchorPane prefHeight="134.0" prefWidth="268.0">
+               <children>
+                  <Label layoutX="41.0" layoutY="27.0" styleClass="title" text="EduLink" textFill="WHITE">
+                     <font>
+                        <Font size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="41.0" layoutY="68.0" styleClass="title" text="%interTitleDescription" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="65.0" prefWidth="268.0" style="-fx-background-color: white;">
+               <children>
+                  <Label alignment="TOP_LEFT" layoutX="36.0" layoutY="18.0" text="%interStudent" textFill="#3367d6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="65.0" prefWidth="268.0">
+               <children>
+                  <Label layoutX="34.0" layoutY="17.0" text="%interTransactions" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="65.0" prefWidth="268.0">
+               <children>
+                  <Label layoutX="36.0" layoutY="18.0" text="%interDonators" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="65.0" prefWidth="268.0">
+               <children>
+                  <Label layoutX="36.0" layoutY="18.0" text="%interAdmins" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="65.0" prefWidth="268.0">
+               <children>
+                  <Label layoutX="36.0" layoutY="18.0" text="%interSettings" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

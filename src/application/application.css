@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+@font-face {
+	/* font-family: 'Cerebri Sans Medium'; */
+	src: url("cerebrisans-medium.ttf");
+}
+
+.title {
+    -fx-font-family: "Cerebri Sans Medium";
+    -fx-text-fill: white;
+}
+
+.sidePanel {
+	-fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 15, 0.5, 0.0, 0.0);
+}
